@@ -27,6 +27,9 @@ public class Application {
 		List<String> list = poster.accessToNetworkResources();
 		// 那我们就来拔下来这个网站的所有图片地址
 		// 处理数据 传入一个集合 和一个正则 然后把符合条件的全部输出到指定文件
+		for (String string : list) {
+			System.out.println(string);
+		}
 	}
 
 }
